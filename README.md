@@ -1,0 +1,230 @@
+[index.html](https://github.com/user-attachments/files/22719421/index.html)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Alubarika Golden Plant | Plantain Flour · Pure Honey · Fresh & Dried Catfish</title>
+<meta name="description" content="Buy premium plantain flour, pure honey, and fresh & Dried catfish from Alubarika Golden Plant. Quality Nigerian products delivered nationwide." />
+<meta name="author" content="Alubarika Golden Plant" />
+<style>
+/* General Styles */
+body {
+font-family: 'Segoe UI', Arial, sans-serif;
+margin: 0;
+background: #f8f9fa;
+color: #222;
+scroll-behavior: smooth;
+}
+header {
+background: #2e8b57;
+color: #fff;
+padding: 20px 10px;
+text-align: center;
+position: sticky;
+top: 0;
+z-index: 100;
+}
+header h1 { margin: 0; font-size: 28px; letter-spacing: 1px; }
+nav { margin-top: 8px; }
+nav a {
+color: #fff;
+text-decoration: none;
+margin: 0 10px;
+font-weight: 600;
+font-size: 16px;
+}
+nav a:hover { text-decoration: underline; }
+
+/* Hero Section */
+.hero {
+background: url('https://images.unsplash.com/photo-1576402187870-6f7f9cfdac52?auto=format&fit=crop&w=1200&q=80') center/cover no-repeat;
+color: white;
+text-align: center;
+padding: 120px 20px;
+}
+.hero h2 { font-size: 42px; margin-bottom: 10px; }
+.hero p { font-size: 18px; max-width: 600px; margin: auto; }
+.btn {
+display: inline-block;
+background: #2e8b57;
+color: white;
+padding: 12px 24px;
+border-radius: 8px;
+text-decoration: none;
+font-weight: bold;
+margin-top: 20px;
+}
+.btn:hover { background: #256b45; }
+
+/* Container */
+.container {
+max-width: 1000px;
+margin: 30px auto;
+background: #fff;
+padding: 25px;
+border-radius: 10px;
+box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+h2 {
+color: #2e8b57;
+text-align: center;
+margin-top: 0;
+}
+p {
+line-height: 1.6;
+font-size: 16px;
+}
+
+/* Products */
+.products {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+gap: 20px;
+margin-top: 20px;
+}
+.product {
+border: 1px solid #eee;
+border-radius: 10px;
+padding: 15px;
+text-align: center;
+transition: transform 0.2s ease;
+}
+.product:hover { transform: scale(1.02); }
+.product img {
+width: 100%;
+border-radius: 8px;
+height: 200px;
+object-fit: cover;
+}
+.price {
+color: #2e8b57;
+font-weight: bold;
+margin-top: 8px;
+}
+
+/* Services */
+ul.services {
+list-style-type: none;
+padding: 0;
+}
+ul.services li {
+padding: 10px;
+background: #f1f1f1;
+margin: 8px 0;
+border-left: 5px solid #2e8b57;
+}
+
+/* Contact / Order */
+.center { text-align: center; }
+.contact-info a {
+color: #2e8b57;
+text-decoration: none;
+}
+.contact-info a:hover { text-decoration: underline; }
+
+footer {
+background: #2e8b57;
+color: white;
+text-align: center;
+padding: 15px;
+margin-top: 30px;
+font-size: 14px;
+}
+@media (max-width: 600px) {
+.hero h2 { font-size: 32px; }
+nav a { display: inline-block; margin: 6px; }
+}
+</style>
+</head>
+
+<body>
+<header>
+<h1>Alubarika Golden Plant</h1>
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#products">Products</a>
+<a href="#services">Services</a>
+<a href="#order">Order</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<!-- Hero -->
+<section id="home" class="hero">
+<h2>Pure. Fresh. Natural.</h2>
+<p>Premium Plantain Flour, Pure Honey, and Fresh & Dried Catfish — proudly Nigerian, made for the world.</p>
+<a href="#products" class="btn">Explore Products</a>
+</section>
+
+<!-- About -->
+<div class="container" id="about">
+<h2>About Us</h2>
+<p>Alubarika Golden Plant is a Nigerian agricultural brand dedicated to delivering healthy, locally sourced foods — from golden plantain flour and natural honey to fresh catfish. We support rural farmers and fishermen while promoting sustainable production for a healthier nation.</p>
+</div>
+
+<!-- Products -->
+<div class="container" id="products">
+<h2>Our Products</h2>
+<div class="products">
+<div class="product">
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Plantain_flour.jpg" alt="Plantain Flour">
+<h3>Plantain Flour</h3>
+<p>Nutritious, gluten-free, and naturally delicious for healthy diets.</p>
+<p class="price">₦5,000 / 1kg</p>
+</div>
+<div class="product">
+<img src="https://upload.wikimedia.org/wikipedia/commons/b/bf/Honey.jpg" alt="Pure Honey">
+<h3>Pure Original Honey</h3>
+<p>Unprocessed, natural honey harvested from trusted Nigerian beekeepers.</p>
+<p class="price">₦10,000 / 500Ltr</p>
+</div>
+<div class="product">
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Catfish.jpg" alt="Fresh & Dried Catfish">
+<h3>Fresh & Dried Catfish</h3>
+<p>Farm-raised, hygienically processed catfish — perfect for any meal.</p>
+<p class="price">₦20,000 / kg</p>
+</div>
+</div>
+</div>
+
+<!-- Services -->
+<div class="container" id="services">
+<h2>Our Services</h2>
+<ul class="services">
+<li>Wholesale and Retail Supply of Plantain Flour</li>
+<li>Pure Honey Distribution to Homes, Hotels & Stores</li>
+<li>Fresh & Dried Catfish  Farming and Bulk Sales</li>
+<li>Door-to-Door Delivery Across Nigeria</li>
+<li>Custom Packaging for Export Orders</li>
+</ul>
+</div>
+
+<!-- Order -->
+<div class="container center" id="order">
+<h2>Place an Order</h2>
+<p>We make ordering easy. Contact us via WhatsApp or email for fast response.</p>
+<a class="btn" href="https://wa.me/2349158760672" target="_blank">Order on WhatsApp</a>
+<br><br>
+<a class="btn" href="mailto:contact@Alubarikagoldenplant.ng">Order by Email</a>
+</div>
+
+<!-- Contact -->
+<div class="container" id="contact">
+<h2>Contact Us</h2>
+<div class="contact-info center">
+<p>📍 Osun, Nigeria</p>
+<p>☎️ <a href="tel:+2349158760672">+234 915 876 0672</a></p>
+<p>📧 <a href="mailto:contact@Alubarikagoldenplant.ng">contact@Alubarikagoldenplant.ng</a></p>
+</div>
+</div>
+
+<!-- Footer -->
+<footer>
+&copy; 2025 Alubarika Golden Plant | All Rights Reserved | Lagos, Nigeria
+</footer>
+</body>
+</html>
+	
