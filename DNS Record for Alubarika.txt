@@ -1,0 +1,15 @@
+
+
+Type	Host / Name   Value / Points to   TTL
+
+A	@		185.199.108.153	  Automatic / 3600
+
+A	@		185.199.109.153   Automatic / 3600
+
+A	@		185.199.110.153	  Automatic / 3600
+
+A	@		185.199.111.153	  Automatic / 3600
+
+CNAME	www		alubarikagoldenplan Automatic / 3600
+
+			t.github.io	
